@@ -6,9 +6,9 @@ Created on Wed May 16 19:29:46 2018
 """
 
 import urllib, os, json
-key = "&key=" + "AIzaSyDDoD92NPPKxZhKnMVxqQXsoLQxkKEQ9C0"
-DownLoc = r"C:\Users\Samira\Dropbox\Dr Mohler\Crime discovery\images"
-myloc = r"C:\Users\Samira\Dropbox\Dr Mohler\Crime discovery\images" #replace with your own location
+key = "&key=" + "YourAPI KEY"
+DownLoc = r".\images"
+myloc = r".images" #replace with your own location
 """
 def GetStreet(Add,SaveLoc):
   base = "https://maps.googleapis.com/maps/api/streetview?size=1200x800&location="
