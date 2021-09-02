@@ -8,9 +8,9 @@ Created on Wed May 16 19:29:46 2018
 import urllib, os, json, io
 import geopandas as gpd
 import numpy as np
-key = "&key=" + "AIzaSyDDoD92NPPKxZhKnMVxqQXsoLQxkKEQ9C0"
-DownLoc = r"/home/samira/Dropbox/Dr Mohler/Crime discovery/images/la10"
-myloc = r"/home/samira/Dropbox/Dr Mohler/Crime discovery/images/la" #replace with your own location
+key = "&key=" + ""
+DownLoc = r"/images/la10"
+myloc = r"images/la" #replace with your own location
 """
 def GetStreet(Add,SaveLoc):
   base = "https://maps.googleapis.com/maps/api/streetview?size=1200x800&location="
